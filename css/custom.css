@@ -21,18 +21,6 @@
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
-@font-face {
-  /* 为载入的字体取名字(随意) */
-  font-family: 'SSO';	
-  /* 字体文件地址(相对或者绝对路径都可以) */
-  src: url(/themes/butterfly/source/font/SmileySans-Oblique.ttf.woff2);
-  /* 定义加粗样式(加粗多少) */
-  font-weight: normal;
-  /* 定义字体样式(斜体/非斜体) */
-  font-style: normal;
-  /* 定义显示样式 */
-  font-display: block;
-}
 /* 翻页按钮居中 */
 #pagination {
   width: 100%;
@@ -57,4 +45,14 @@
 .author-info__name,
 .author-info__description {
   transition: text-shadow 1s linear !important;
+}
+@font-face {
+  font-family: f2;
+  src: url(../font/Monaco.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: f1;
+  src: url(../font/HarmonyOS_Sans_SC_Medium.woff2);
+  font-display: swap;
 }
